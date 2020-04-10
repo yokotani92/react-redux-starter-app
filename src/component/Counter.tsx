@@ -4,7 +4,7 @@ import { increment, decrement } from './../redux/actions';
 import { RootState } from './../redux/reducers/index';
 
 const Counter: React.FC = () => {
-    const count = useSelector((state: RootState) => state.counter.count);
+    const count = useSelector<RootState, number>(state => state.counter.count);
     const dispatch = useDispatch();
 
     return (
