@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This is a simple count up/ down button application using React-Redux and TypeScript.  
 Hope this helps you to study React-Redux with TypeScript or start to make new React-Redux application.
 
-Updated on 2020/5/31: Add sample using redux-toolkit in redux-toolkit branch.
+Updated on 2020/5/31: Add sample using Redux Toolkit in redux-toolkit branch.
 
 ## Available Scripts
 
