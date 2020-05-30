@@ -1,10 +1,8 @@
-import * as React from 'react';
-import Counter from './Counter';
+import React from "react";
+import Counter from "./Counter";
 
 const App: React.FC = () => {
-  return (
-    <Counter />
-  );
+  return <Counter />;
 };
 
 export default App;
