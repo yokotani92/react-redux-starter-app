@@ -4,7 +4,6 @@ import counterSlice from "../redux/counterSlice";
 import { RootState } from "../redux/store";
 
 const Counter: React.FC = () => {
-  const { actions, reducer } = counterSlice;
   const { increment, decrement } = counterSlice.actions;
 
   const count = useSelector<RootState, number>((state) => state.counter);
